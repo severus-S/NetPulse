@@ -18,3 +18,18 @@ NetPulse 是一个用 Python 编写的轻量级、跨平台网络可用性监控
 ```bash
 git clone [https://github.com/severus-S/NetPulse.git](https://github.com/severus-S/NetPulse.git)
 cd NetPulse
+
+使用说明
+直接使用 Python 3 运行监控脚本：
+python main.py
+
+
+后续开发计划 (Roadmap)
+[ ] 增加 JSON/CSV 格式日志导出功能，便于进行长期的网络质量数据分析。
+
+[ ] 引入 asyncio 异步执行机制，实现成百上千个监控节点的并发测试。
+
+[ ] 集成 Webhook 告警通知（如钉钉、企业微信、Discord），在服务器离线时实现秒级报警。
+
+开源许可证
+本项目基于 MIT 许可证开源 - 详情参见 LICENSE 文件。
